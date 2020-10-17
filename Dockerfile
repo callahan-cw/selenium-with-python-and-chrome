@@ -19,7 +19,7 @@ RUN pip install --upgrade pip
 RUN pip install selenium
 
 # copy testing code
-COPY test_image_with_selenium_job.py /test
+COPY test_image_with_selenium_job.py /test/
 
-RUN ls -al /test
+RUN ls -al /test/
 

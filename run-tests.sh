@@ -1,1 +1,1 @@
-python test_image_with_selenium_job.py
+python /test/test_image_with_selenium_job.py

@@ -14,7 +14,7 @@ RUN unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 # set display port
 ENV DISPLAY=:99
 
-# upgrade pip and intall selenium
+# upgrade pip and install selenium
 RUN pip install --upgrade pip
 RUN pip install selenium
 
